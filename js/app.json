@@ -1,0 +1,24 @@
+{
+  "endpoints": {
+    "/test/printhellolog": {
+      "post": {
+        "js_module": "test.js",
+        "js_function": "print_hello_log",
+        "forwarding_required": "always",
+        "authn_policies": ["user_cert"],
+        "mode": "readwrite",
+        "openapi": {}
+      }
+    },
+    "/test/printhelloerror": {
+      "post": {
+        "js_module": "test.js",
+        "js_function": "print_hello_error",
+        "forwarding_required": "always",
+        "authn_policies": ["user_cert"],
+        "mode": "readwrite",
+        "openapi": {}
+      }
+    }
+  }
+}
