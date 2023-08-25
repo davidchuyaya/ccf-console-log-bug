@@ -1,5 +1,6 @@
 # ccf-console-log-bug
 Reproduceable repo for console.log() not printing bug in CCF.
+Resolved in [this issue](https://github.com/microsoft/CCF/issues/5590).
 The following code was executed in WSL.
 
 Install and start CCF:
